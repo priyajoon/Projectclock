@@ -11,12 +11,12 @@ def tym():
     pass
 
 clock =  tkinter.Tk()
-clock.title("The time is:")
+clock.title("Time")
 clock.geometry("400x200")
 clock.config(bg='black')
 
-
-lbl_2 = tkinter.Button(clock, text ="Click" , fg = "red", font = ("Cosmic Sans MS",40,"bold")).pack()
+lbl_3 = tkinter.Label(clock, text = "The Time is:", fg = "purple", font = ("Cosmic Sans MS",40,"bold")).pack()
+#lbl_2 = tkinter.Button(clock, text ="Click" , bg = "grey", fg = "red", font = ("Cosmic Sans MS",40,"bold")).pack()
 lbl= tkinter.Label(clock,bg="black",fg="purple",height="10",font= ('Comic Sans MS',50,'bold'))
 tym()
 clock.mainloop()
